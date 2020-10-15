@@ -1,0 +1,42 @@
+.Issues {
+	display: grid;
+	justify-content: space-around;
+	row-gap: 2rem;
+	place-items: center;
+	margin: 2rem;
+}
+.pagination {
+	grid-area: 2/2/2/1;
+}
+.issues-list {
+	grid-area: 1/2/1/1;
+	border: 1px solid #e1e4e8;
+	border-radius: 6px;
+}
+.issue-header-wrap {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 1.5rem 1rem;
+	background-color: #f6f8fa;
+	border-bottom: 1px solid #e1e4e8;
+}
+.icon-header {
+	color: #24292e;
+	margin-right: 0.3rem;
+}
+
+.open-issue-count,
+.closed-issue-count {
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+.before-fetch-message {
+	margin: 4rem;
+}
+.pad4 {
+	padding: 4rem;
+}
+.bold {
+	font-weight: 600;
+}

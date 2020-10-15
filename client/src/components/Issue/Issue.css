@@ -1,0 +1,50 @@
+.open-issue-icon {
+	color: #28a745;
+	margin-right: 0.5rem;
+}
+
+.Issue-wrap {
+	padding: 1rem 1.5rem;
+	border-bottom: 1px solid #e1e4e8;
+	width: 85vw;
+}
+.Issue-wrap:hover {
+	background-color: #f6f8fa;
+}
+.Issue-wrap,
+.issue-grid,
+.issue {
+	display: flex;
+}
+
+.issue-grid {
+	justify-content: space-between;
+	flex: auto;
+}
+
+.issue {
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-right: 1rem;
+}
+
+.issue-title {
+	font-weight: 600;
+}
+.issue > a {
+	text-decoration: none;
+	color: #24292e;
+}
+.issue > a:hover {
+	color: #0366d6;
+}
+
+.issue-comments {
+	padding: 0.5rem;
+	margin: 0 0.5rem;
+}
+
+.issue-details {
+	color: #586069;
+	font-size: smaller;
+}

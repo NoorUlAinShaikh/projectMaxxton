@@ -1,0 +1,38 @@
+.repo-field,
+.owner-field {
+	margin: 0 1rem !important;
+}
+
+.fetch-issues-button {
+	padding: 0.6rem 2rem;
+	margin: 0.8rem 1.5rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #e32636;
+	color: #fff;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.fetch-issues-button:hover {
+	background-color: #ff2400;
+}
+
+.fetch-issues-button:focus {
+	outline: none;
+}
+.MuiFormLabel-root.Mui-focused {
+	color: #24292e !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+	border-bottom: 1px solid #24292e;
+	opacity: 0.8;
+}
+
+.MuiInput-underline:after {
+	border-bottom: 2px solid #24292e !important;
+}
+.MuiInput-underline.Mui-error:after {
+	border-bottom: 2px solid #f44336 !important;
+}

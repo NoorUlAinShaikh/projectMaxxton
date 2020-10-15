@@ -1,0 +1,17 @@
+.header {
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}
+.sub-header {
+	display: grid;
+	padding: 2rem;
+	background-color: #24292e;
+	place-items: center;
+	color: #fff;
+}
+.issue-search {
+	background-color: #fafbfc;
+	box-shadow: inset 0 -1px 0 #e1e4e8;
+	padding: 1.5rem;
+}
