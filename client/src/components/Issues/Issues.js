@@ -52,7 +52,7 @@ const Issues = () => {
 
 	const fetchSelectedPage = page => {
 		window.scroll(0, 0);
-		if (page) dispatch(fetchIssues(page, issueState ? issueState : "open"));
+		if (page) dispatch(fetchIssues(page === 1 ? null : page, issueState ? issueState : "open"));
 	};
 
 	const renderIssuesList = () =>
